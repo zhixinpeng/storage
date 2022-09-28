@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-28T01:24:00.475Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="_gG7TwY8fSR3kIl2sUum" version="20.3.6" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-09-28T11:03:58.872Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="sKM9XoWH9-_GWfbHxXvg" version="20.3.6" type="github" pages="6">
   <diagram id="q3GiHXyAybd_ypthJgl-" name="第 1 页">
     <mxGraphModel dx="1186" dy="687" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="1">
       <root>
@@ -258,49 +258,128 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="dH1yjbUSgI9YdXI2gseb-1" value="" style="endArrow=classic;html=1;sketch=1;curved=1;" edge="1" parent="1">
+        <mxCell id="dH1yjbUSgI9YdXI2gseb-1" value="" style="endArrow=classic;html=1;sketch=1;curved=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-160" y="240" as="sourcePoint" />
             <mxPoint x="280" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dH1yjbUSgI9YdXI2gseb-7" value="应用层渲染" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];sketch=1;rounded=1;" vertex="1" connectable="0" parent="dH1yjbUSgI9YdXI2gseb-1">
+        <mxCell id="dH1yjbUSgI9YdXI2gseb-7" value="应用层渲染" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];sketch=1;rounded=1;" parent="dH1yjbUSgI9YdXI2gseb-1" vertex="1" connectable="0">
           <mxGeometry x="0.8545" y="1" relative="1" as="geometry">
             <mxPoint x="-8" y="21" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dH1yjbUSgI9YdXI2gseb-8" value="底层渲染" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];sketch=1;rounded=1;" vertex="1" connectable="0" parent="dH1yjbUSgI9YdXI2gseb-1">
+        <mxCell id="dH1yjbUSgI9YdXI2gseb-8" value="底层渲染" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];sketch=1;rounded=1;" parent="dH1yjbUSgI9YdXI2gseb-1" vertex="1" connectable="0">
           <mxGeometry x="-0.8682" y="2" relative="1" as="geometry">
             <mxPoint y="22" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dH1yjbUSgI9YdXI2gseb-2" value="" style="endArrow=classic;html=1;sketch=1;curved=1;" edge="1" parent="1">
+        <mxCell id="dH1yjbUSgI9YdXI2gseb-2" value="" style="endArrow=classic;html=1;sketch=1;curved=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="40" y="440" as="sourcePoint" />
             <mxPoint x="40" y="40" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dH1yjbUSgI9YdXI2gseb-5" value="应用层能力" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];sketch=1;rounded=1;" vertex="1" connectable="0" parent="dH1yjbUSgI9YdXI2gseb-2">
+        <mxCell id="dH1yjbUSgI9YdXI2gseb-5" value="应用层能力" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];sketch=1;rounded=1;" parent="dH1yjbUSgI9YdXI2gseb-2" vertex="1" connectable="0">
           <mxGeometry x="0.91" y="4" relative="1" as="geometry">
             <mxPoint x="-36" y="-8" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dH1yjbUSgI9YdXI2gseb-6" value="底层能力" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];sketch=1;rounded=1;" vertex="1" connectable="0" parent="dH1yjbUSgI9YdXI2gseb-2">
+        <mxCell id="dH1yjbUSgI9YdXI2gseb-6" value="底层能力" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];sketch=1;rounded=1;" parent="dH1yjbUSgI9YdXI2gseb-2" vertex="1" connectable="0">
           <mxGeometry x="-0.905" y="2" relative="1" as="geometry">
             <mxPoint x="-38" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dH1yjbUSgI9YdXI2gseb-3" value="Flutter 组件" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="dH1yjbUSgI9YdXI2gseb-3" value="Flutter 组件" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="80" y="110" width="160" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="dH1yjbUSgI9YdXI2gseb-4" value="原生控件&lt;br&gt;（分享、自定义View）" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="dH1yjbUSgI9YdXI2gseb-4" value="原生控件&lt;br&gt;（分享、自定义View）" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="-160" y="110" width="160" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="dH1yjbUSgI9YdXI2gseb-9" value="系统控件&lt;br&gt;（地图、相机、WebView）" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="dH1yjbUSgI9YdXI2gseb-9" value="系统控件&lt;br&gt;（地图、相机、WebView）" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="-160" y="280" width="160" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="dH1yjbUSgI9YdXI2gseb-10" value="Method Channel&lt;br&gt;（定位、蓝牙、数据库）" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="dH1yjbUSgI9YdXI2gseb-10" value="Method Channel&lt;br&gt;（定位、蓝牙、数据库）" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="80" y="280" width="160" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="2ddxcjV4MlUyr5tggYdc" name="第 6 页">
+    <mxGraphModel dx="1586" dy="687" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vlyZqSU_Eru1SEweww9i-8" value="Flutter iOS engine" style="rounded=1;whiteSpace=wrap;html=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;spacingRight=-120;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="-252.5" y="175" width="290" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="vlyZqSU_Eru1SEweww9i-1" value="Dart Code" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="37.5" y="10" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vlyZqSU_Eru1SEweww9i-17" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;curved=1;sketch=1;" edge="1" parent="1" source="vlyZqSU_Eru1SEweww9i-2" target="vlyZqSU_Eru1SEweww9i-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vlyZqSU_Eru1SEweww9i-2" value="FlutterViewController" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="-102.5" y="240" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vlyZqSU_Eru1SEweww9i-4" value="Flutter Framework" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;labelPosition=left;verticalLabelPosition=middle;align=right;spacingRight=-120;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="-115" y="100" width="435" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vlyZqSU_Eru1SEweww9i-22" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;curved=1;sketch=1;" edge="1" parent="1" source="vlyZqSU_Eru1SEweww9i-3" target="vlyZqSU_Eru1SEweww9i-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vlyZqSU_Eru1SEweww9i-3" value="Method Channel" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="37.5" y="105" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vlyZqSU_Eru1SEweww9i-16" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;curved=1;sketch=1;" edge="1" parent="1" source="vlyZqSU_Eru1SEweww9i-5" target="vlyZqSU_Eru1SEweww9i-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vlyZqSU_Eru1SEweww9i-5" value="AppDelegate" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="-102.5" y="180" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vlyZqSU_Eru1SEweww9i-18" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;curved=1;sketch=1;" edge="1" parent="1" source="vlyZqSU_Eru1SEweww9i-6" target="vlyZqSU_Eru1SEweww9i-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vlyZqSU_Eru1SEweww9i-6" value="FlutterMethodChannel" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="-102.5" y="300" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vlyZqSU_Eru1SEweww9i-7" value="iOS Code" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="-102.5" y="400" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vlyZqSU_Eru1SEweww9i-9" value="Flutter Android engine" style="rounded=1;whiteSpace=wrap;html=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;spacingRight=0;spacingLeft=-130;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="175" width="290" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="vlyZqSU_Eru1SEweww9i-21" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;curved=1;sketch=1;" edge="1" parent="1" source="vlyZqSU_Eru1SEweww9i-10" target="vlyZqSU_Eru1SEweww9i-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vlyZqSU_Eru1SEweww9i-10" value="FlutterView" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="242.5" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vlyZqSU_Eru1SEweww9i-20" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=none;startFill=0;curved=1;sketch=1;" edge="1" parent="1" source="vlyZqSU_Eru1SEweww9i-11" target="vlyZqSU_Eru1SEweww9i-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vlyZqSU_Eru1SEweww9i-11" value="MainActivity" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="180" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vlyZqSU_Eru1SEweww9i-19" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;curved=1;sketch=1;" edge="1" parent="1" source="vlyZqSU_Eru1SEweww9i-12" target="vlyZqSU_Eru1SEweww9i-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vlyZqSU_Eru1SEweww9i-12" value="MethodChannel" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="302.5" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vlyZqSU_Eru1SEweww9i-13" value="Android Code" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="400" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vlyZqSU_Eru1SEweww9i-14" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;curved=1;sketch=1;" edge="1" parent="1" source="vlyZqSU_Eru1SEweww9i-1" target="vlyZqSU_Eru1SEweww9i-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vlyZqSU_Eru1SEweww9i-23" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;curved=1;sketch=1;" edge="1" parent="1" source="vlyZqSU_Eru1SEweww9i-3" target="vlyZqSU_Eru1SEweww9i-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vlyZqSU_Eru1SEweww9i-25" value="&lt;font color=&quot;#ff38a2&quot;&gt;&lt;b&gt;Pigeon&lt;/b&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];sketch=1;" vertex="1" connectable="0" parent="vlyZqSU_Eru1SEweww9i-23">
+          <mxGeometry x="-0.7714" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
